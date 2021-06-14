@@ -44,7 +44,6 @@ int main()
     cout << "Password: " << password << endl;
     cout << "Recipient email: " << recipient << endl;
 
-    //// debug code.
     //sender = "rachel@wolfcreekmicro.com";
     //password = "123Rachel456";
     //recipient = "rachel@wolfcreekmicro.com";
