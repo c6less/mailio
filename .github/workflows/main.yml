@@ -31,7 +31,7 @@ jobs:
           mkdir build
           cd build
           cmake ..
-          cmake --build . --config Release
+          cmake --build .
       - uses: actions/upload-artifact@v2
         with:
           name: Release
