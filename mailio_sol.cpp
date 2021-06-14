@@ -44,7 +44,7 @@ int main()
     cout << "Password: " << password << endl;
     cout << "Recipient email: " << recipient << endl;
 
-    //sender = "rachel@wolfcreekmicro.com";
+    //sender = "rachel@wolfcreekmicro.com"; 
     //password = "123Rachel456";
     //recipient = "rachel@wolfcreekmicro.com";
     //smtpServer = "mail.wolfcreekmicro.com";
