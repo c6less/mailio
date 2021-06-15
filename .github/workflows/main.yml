@@ -28,7 +28,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Compile Release Build
         run: |
-          .\vcpkg install mailio
+          vcpkg install mailio
           mkdir build
           cd build
           cmake ..
