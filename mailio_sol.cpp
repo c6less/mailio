@@ -7,7 +7,7 @@ Distributed under the FreeBSD license, see the accompanying file LICENSE or
 copy at http ://www.freebsd.org/copyright/freebsd-license.html.
 */
 
-
+#include <SDKDDKVer.h>
 #include <iostream>
 #include <string>
 #include <mailio/message.hpp>
