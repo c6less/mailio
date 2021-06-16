@@ -29,11 +29,5 @@ jobs:
       - name: Compile Release Build
         run: |
           vcpkg install mailio
-          mkdir build
-          cd build
-          cmake ..
-          cmake --build .
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Release
-          path: build/Release # or path/to/artifact
+          get-childitem
+          
