@@ -33,6 +33,7 @@ jobs:
           cmake ..
           cmake --build .
           get-location
+          test-path mailio/message.hpp
       - uses: actions/upload-artifact@v2
         with:
           name: Release
