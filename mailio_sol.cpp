@@ -10,8 +10,8 @@ copy at http ://www.freebsd.org/copyright/freebsd-license.html.
 #include <SDKDDKVer.h>
 #include <iostream>
 #include <string>
-#include "mailio/message.hpp"
-#include "mailio/smtp.hpp"
+#include "include/mailio/message.hpp"
+#include "include/mailio/smtp.hpp"
 
 using mailio::message;
 using mailio::mail_address;
