@@ -30,12 +30,12 @@ jobs:
         run: |
           mkdir build
           cd build
-          vcpkg search mailio
+          vcpkg install mailio
           vcpkg integrate install
           cmake ..
           cmake --build . --config Release
           get-location
-          test-path mailio/message.hpp
+          test-path boost/date_time.hpp
           get-childitem
       - uses: actions/upload-artifact@v2
         with:
