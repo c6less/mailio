@@ -31,10 +31,10 @@ jobs:
           mkdir build
           cd build
           cmake ..
-          MSBuild.exe mailio.sln
-#          cmake --build .
-#          get-location
-#          test-path mailio/message.hpp
+          cmake --build . --config Release
+          get-location
+          test-path mailio/message.hpp
+          get-childitem
       - uses: actions/upload-artifact@v2
         with:
           name: Release
