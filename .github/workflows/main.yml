@@ -30,6 +30,8 @@ jobs:
         run: |
           mkdir build
           cd build
+          vcpkg search mailio
+          vcpkg integrate install
           cmake ..
           cmake --build . --config Release
           get-location
